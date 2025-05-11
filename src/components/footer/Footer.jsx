@@ -8,7 +8,7 @@ import linkedin from "../../assets/linkedin.png";
 const Footer = () => {
    return (
       <footer className="bg-[#1C1E53]">
-         <div className="container grid grid-cols-1 gap-[142px] pt-[96px] pb-[80px] sm:grid-cols-2">
+         <div className="container grid grid-cols-1 gap-[142px] pt-[96px] pb-[80px] md:grid-cols-2">
             <div className="pt-3">
                <img src={logo} alt="" className="mb-6" />
                <p className="text-[#BBBBCB] mb-[86px]">We are always open to discuss your project and improve your online presence.</p>

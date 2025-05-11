@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 const Hero = () => {
    return (
       <div className="bg-[#1C1E53]">
-         <div className="w-full container flex pt-[126px] pb-[128px] gap-[60px] justify-between]">
-            <div className="w-[582px]">
+         <div className="w-full container grid grid-cols-1 pt-[126px] pb-[128px] gap-[60px] lg:grid-cols-2 ]">
+            <div className="max-w-[582px]">
                <h1 className="text-[54px] text-[#fff] mb-6 font-semibold">Building stellar websites for early startups</h1>
                <p className="text-[#BBBBCB] leading-[28px] mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                <div className="flex gap-[40px] items-center">

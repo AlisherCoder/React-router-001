@@ -8,7 +8,7 @@ const Work = () => {
    return (
       <section className="bg-[#F4F6FC]">
          <div className="container py-[96px] grid place-items-center">
-            <div className="flex flex-col gap-5 justify-center items-center w-[45%] text-center text-[#282938]">
+            <div className="flex flex-col gap-5 justify-center items-center w-full lg:w-[45%] text-center text-[#282938]">
                <p className="opacity-70 font-medium">What we created</p>
                <h3 className="text-5xl font-semibold">Our Work Portfolio</h3>
                <p className="opacity-70 font-medium">We help teams create great digital products by providing them with tools and technology to make the design-to-code process universally accessible.</p>
